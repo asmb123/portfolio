@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Asmit Barua</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+    }
+    .paper {
+      background-color: #1a1a1a;
+    }
+    .line-clamp-3 {
+      display: -webkit-box;
+      /* */
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+    .scrollbar-hide {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+    .scrollbar-hide::-webkit-scrollbar {
+      display: none;
+    }
+  </style>
+</head>
+<body style="background-color: #1a1a1a; margin: 0; padding: 1rem; min-height: 100vh; color: #e0e0e0;">
+  <div style="max-width: 1200px; margin: 0 auto; background-color: #1a1a1a; color: #e0e0e0;">
+    <header style="margin-bottom: 2rem; padding-top: 1rem; display: flex; justify-content: center;">
+      <div style="width: 100%; max-width: 700px;">
+        <div style="display: flex; justify-content: space-between; align-items: flex-end; border-bottom: 1px solid #4a9eff; padding-bottom: 0.25rem; padding-left: 0.5rem; padding-right: 0.5rem; margin-bottom: 1rem;">
+          <div style="font-size: 0.75rem; font-family: 'Inter', sans-serif; font-weight: bold; letter-spacing: 0.1em; text-transform: uppercase;">Vol. 12, Issue 4</div>
+          <div style="font-size: 0.75rem; font-family: 'Inter', sans-serif; font-weight: bold; letter-spacing: 0.1em; text-transform: uppercase;">Price: $$</div>
+        </div>
+      
+      <div style="text-align: center; padding-top: 2rem; padding-bottom: 2rem;">
+        <h1 style="font-size: 4rem; font-weight: 900; font-family: 'Playfair Display', serif; letter-spacing: -0.025em; line-height: 1; text-transform: uppercase; transform: scaleY(1.1); margin: 0; color: #4a9eff;">THE DAILY DEV</h1>
+        <p style="font-family: 'Playfair Display', serif; font-style: italic; font-size: 1.125rem; margin-top: 0.5rem; margin-bottom: 0; color: #a0a0a0;">"All the Code That's Fit to Ship"</p>
+      </div>
+
+        <div style="border-top: 1px solid #4a9eff; border-bottom: 2px solid #4a9eff; padding-top: 0.5rem; padding-bottom: 0.5rem; display: flex; justify-content: space-between; align-items: center; padding-left: 1rem; padding-right: 1rem; font-family: 'Inter', sans-serif; font-size: 0.875rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.025em;">
+          <span>Monday, January 27, 2026</span>
+          <span>Late Edition</span>
+          <span>Sunny, 72°F</span>
+        </div>
+      </div>
+    </header>
+    
+    <main>
+      <!-- Main Feature Section -->
+      <section style="margin-bottom: 3rem; display: flex; justify-content: center; border-bottom: 2px solid #4a9eff; padding-bottom: 3rem;">
+        <div style="width: 100%; max-width: 700px;">
+          <h2 style="font-size: 3rem; font-family: 'Playfair Display', serif; font-weight: bold; line-height: 1.25; margin-bottom: 1.5rem; cursor: pointer; text-align: center;">
+            DEVELOPER RELEASES 
+            <br>
+            NEW PORTFOLIO
+          </h2>
+          <div style="display: flex; flex-direction: column; gap: 1.5rem;">
+            <div style="width: 100%;">
+              <img
+                src="https://picsum.photos/800/500?grayscale"
+                alt="Developer at work"
+                style="width: 100%; height: 16rem; object-fit: cover; filter: grayscale(100%); border: 1px solid #4a9eff; margin-bottom: 1rem; box-shadow: -8px 8px 0px 0px rgba(74, 158, 255, 0.3);"
+              />
+              <p style="font-family: 'Inter', sans-serif; font-size: 0.75rem; color: #888; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 1rem; text-align: center;">Fig 1. A random glimpse of scenery to grab your attention.</p>
+            </div>
+            <div style="font-family: 'Playfair Display', serif; font-size: 1.125rem; line-height: 1.625; text-align: center; color: #c0c0c0;">
+              <p style="margin-bottom: 1rem;"><span style="font-size: 2.25rem; font-weight: bold; margin-right: 0.5rem; color: #4a9eff;">T</span>he digital landscape changed forever today with the launch of this minimalist, newspaper-inspired portfolio. Critics are calling it "bold," "readable," and "distinctly lacking in unnecessary animations."</p>
+              <p>Experts suggest that this return to typographic roots signifies a maturity in frontend engineering—focusing on content, structure, and performance over flashiness.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Tech Index Section -->
+      <section style="margin-bottom: 3rem; display: flex; justify-content: center;">
+        <div style="width: 100%; max-width: 600px;">
+          <h3 style="font-family: 'Inter', sans-serif; font-weight: bold; text-transform: uppercase; border-bottom: 2px solid #4a9eff; margin-bottom: 1rem; font-size: 1.25rem; text-align: center;">Tech Index</h3>
+          <ul style="margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 0.75rem; font-family: 'Playfair Display', serif; font-size: 1.125rem;">
+            <li style="display: flex; justify-content: space-between; border-bottom: 1px dotted #4a9eff; padding-bottom: 0.25rem;">
+              <span>React ecosystem</span>
+              <span style="font-weight: bold; color: #4a9eff;">Up 12%</span>
+            </li>
+            <li style="display: flex; justify-content: space-between; border-bottom: 1px dotted #4a9eff; padding-bottom: 0.25rem;">
+              <span>TypeScript</span>
+              <span style="font-weight: bold; color: #4a9eff;">Stable</span>
+            </li>
+            <li style="display: flex; justify-content: space-between; border-bottom: 1px dotted #4a9eff; padding-bottom: 0.25rem;">
+              <span>Tailwind CSS</span>
+              <span style="font-weight: bold; color: #4a9eff;">Bullish</span>
+            </li>
+            <li style="display: flex; justify-content: space-between; border-bottom: 1px dotted #4a9eff; padding-bottom: 0.25rem;">
+              <span>Gemini API</span>
+              <span style="font-weight: bold; color: #4a9eff;">Surging</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Advertisement Section -->
+      <section style="margin-bottom: 3rem; display: flex; justify-content: center;">
+        <div style="width: 100%; max-width: 600px; background-color: #252525; color: #e0e0e0; padding: 1.5rem; text-align: center; border: 4px double #4a9eff;">
+          <h4 style="font-family: 'Inter', sans-serif; font-weight: bold; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 0.5rem; font-size: 0.875rem; color: #4a9eff;">Advertisement</h4>
+          <p style="font-family: 'Playfair Display', serif; font-size: 1.875rem; font-weight: bold; font-style: italic; margin-bottom: 1rem;">"Need a pixel-perfect web app?"</p>
+          <button style="background-color: #4a9eff; color: #1a1a1a; font-weight: bold; padding: 0.5rem 1.5rem; text-transform: uppercase; font-family: 'Inter', sans-serif; border: 2px solid transparent; cursor: pointer;">Hire Now</button>
+        </div>
+      </section>
+
+      <!-- Feature Stories Section -->
+      <section style="margin-bottom: 3rem; display: flex; justify-content: center;">
+        <div style="width: 100%; max-width: 900px;">
+          <div style="display: flex; justify-content: center; align-items: center; margin-bottom: 1.5rem; border-bottom: 2px solid #4a9eff; padding-bottom: 0.5rem;">
+            <h3 style="font-family: 'Inter', sans-serif; font-weight: bold; font-size: 1.25rem; text-transform: uppercase; letter-spacing: 0.05em;">Feature Stories (Projects)</h3>
+          </div>
+          
+          <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 2rem 3rem;">
+            <article style="display: flex; flex-direction: column; height: 100%; border-bottom: 1px solid #4a9eff; padding-bottom: 1.5rem; margin-bottom: 1.5rem;">
+              <div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.75rem;">
+                <span style="background-color: #4a9eff; color: #1a1a1a; font-size: 0.75rem; font-family: 'Inter', sans-serif; padding: 0.25rem 0.5rem; text-transform: uppercase; font-weight: bold;">React</span>
+                <span style="background-color: #4a9eff; color: #1a1a1a; font-size: 0.75rem; font-family: 'Inter', sans-serif; padding: 0.25rem 0.5rem; text-transform: uppercase; font-weight: bold;">TypeScript</span>
+                <span style="background-color: #4a9eff; color: #1a1a1a; font-size: 0.75rem; font-family: 'Inter', sans-serif; padding: 0.25rem 0.5rem; text-transform: uppercase; font-weight: bold;">WebRTC</span>
+                <span style="background-color: #4a9eff; color: #1a1a1a; font-size: 0.75rem; font-family: 'Inter', sans-serif; padding: 0.25rem 0.5rem; text-transform: uppercase; font-weight: bold;">k8s</span>
+                <span style="background-color: #4a9eff; color: #1a1a1a; font-size: 0.75rem; font-family: 'Inter', sans-serif; padding: 0.25rem 0.5rem; text-transform: uppercase; font-weight: bold;">devops</span>
+                
+              </div>
+              <h3 style="font-family: 'Playfair Display', serif; font-size: 1.5rem; font-weight: bold; line-height: 1.25; margin-bottom: 0.5rem;">Collabcraft</h3>
+              <p style="font-family: 'Playfair Display', serif; font-size: 1rem; line-height: 1.375; color: #c0c0c0; margin-bottom: 1rem; flex-grow: 1;">A collaborative document editor deployed in a Kubernetes Cluster.</p>
+              <a href="https://github.com/asmb123/collabcraft" target="_blank" style="font-family: 'Inter', sans-serif; font-size: 0.875rem; font-weight: bold; text-transform: uppercase; color: #4a9eff; text-decoration: none; display: flex; align-items: center; gap: 0.25rem; margin-top: auto;">View on GitHub <span style="font-size: 1.125rem;">→</span></a>
+            </article>
+            
+            <article style="display: flex; flex-direction: column; height: 100%; border-bottom: 1px solid #4a9eff; padding-bottom: 1.5rem; margin-bottom: 1.5rem;">
+              <div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.75rem;">
+                <span style="background-color: #4a9eff; color: #1a1a1a; font-size: 0.75rem; font-family: 'Inter', sans-serif; padding: 0.25rem 0.5rem; text-transform: uppercase; font-weight: bold;">Go</span>
+                <span style="background-color: #4a9eff; color: #1a1a1a; font-size: 0.75rem; font-family: 'Inter', sans-serif; padding: 0.25rem 0.5rem; text-transform: uppercase; font-weight: bold;">CLI</span>
+                <span style="background-color: #4a9eff; color: #1a1a1a; font-size: 0.75rem; font-family: 'Inter', sans-serif; padding: 0.25rem 0.5rem; text-transform: uppercase; font-weight: bold;">OpenAI</span>
+                <span style="background-color: #4a9eff; color: #1a1a1a; font-size: 0.75rem; font-family: 'Inter', sans-serif; padding: 0.25rem 0.5rem; text-transform: uppercase; font-weight: bold;">OLLAMA</span>
+              </div>
+              <h3 style="font-family: 'Playfair Display', serif; font-size: 1.5rem; font-weight: bold; line-height: 1.25; margin-bottom: 0.5rem;">shx</h3>
+              <p style="font-family: 'Playfair Display', serif; font-size: 1rem; line-height: 1.375; color: #c0c0c0; margin-bottom: 1rem; flex-grow: 1;">An AI Linux Command Assistance CLI made in GO for new Linux users.</p>
+              <a href="https://github.com/asmb123/shx" target="_blank" style="font-family: 'Inter', sans-serif; font-size: 0.875rem; font-weight: bold; text-transform: uppercase; color: #4a9eff; text-decoration: none; display: flex; align-items: center; gap: 0.25rem; margin-top: auto;">View on GitHub <span style="font-size: 1.125rem;">→</span></a>
+            </article>
+            
+            <article style="display: flex; flex-direction: column; height: 100%; border-bottom: 1px solid #4a9eff; padding-bottom: 1.5rem; margin-bottom: 1.5rem;">
+              <div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.75rem;">
+                <span style="background-color: #4a9eff; color: #1a1a1a; font-size: 0.75rem; font-family: 'Inter', sans-serif; padding: 0.25rem 0.5rem; text-transform: uppercase; font-weight: bold;">React Native</span>
+              </div>
+              <h3 style="font-family: 'Playfair Display', serif; font-size: 1.5rem; font-weight: bold; line-height: 1.25; margin-bottom: 0.5rem;">native-chess</h3>
+              <p style="font-family: 'Playfair Display', serif; font-size: 1rem; line-height: 1.375; color: #c0c0c0; margin-bottom: 1rem; flex-grow: 1;">A 6 move chess duel puzzle mobile game made using React Native.</p>
+              <a href="https://github.com/asmb123/native-chess" target="_blank" style="font-family: 'Inter', sans-serif; font-size: 0.875rem; font-weight: bold; text-transform: uppercase; color: #4a9eff; text-decoration: none; display: flex; align-items: center; gap: 0.25rem; margin-top: auto;">View on GitHub <span style="font-size: 1.125rem;">→</span></a>
+            </article>
+            
+            <!-- <article style="display: flex; flex-direction: column; height: 100%; border-bottom: 1px solid #4a9eff; padding-bottom: 1.5rem; margin-bottom: 1.5rem;">
+              <div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.75rem;">
+                <span style="background-color: #4a9eff; color: #1a1a1a; font-size: 0.75rem; font-family: 'Inter', sans-serif; padding: 0.25rem 0.5rem; text-transform: uppercase; font-weight: bold;">Gemini API</span>
+              </div>
+              <h3 style="font-family: 'Playfair Display', serif; font-size: 1.5rem; font-weight: bold; line-height: 1.25; margin-bottom: 0.5rem;">Convert-n-Clear</h3>
+              <p style="font-family: 'Playfair Display', serif; font-size: 1rem; line-height: 1.375; color: #c0c0c0; margin-bottom: 1rem; flex-grow: 1;">.</p>
+              <a href="https://github.com" target="_blank" style="font-family: 'Inter', sans-serif; font-size: 0.875rem; font-weight: bold; text-transform: uppercase; color: #4a9eff; text-decoration: none; display: flex; align-items: center; gap: 0.25rem; margin-top: auto;">View on GitHub <span style="font-size: 1.125rem;">→</span></a>
+            </article> -->
+          </div>
+        </div>
+      </section>
+
+      <!-- Editorial Section -->
+      <section style="margin-bottom: 3rem; display: flex; justify-content: center;">
+        <div style="width: 100%; max-width: 600px;">
+          <div style="border-bottom: 2px solid #4a9eff; padding-bottom: 0.25rem; margin-bottom: 1rem; text-align: center;">
+            <h3 style="font-family: 'Inter', sans-serif; font-weight: bold; font-size: 1.125rem; text-transform: uppercase; letter-spacing: 0.05em; color: #e0e0e0;">Editorial</h3>
+          </div>
+          <div style="font-family: 'Playfair Display', serif; font-size: 1rem; line-height: 1.625; text-align: center; margin-bottom: 1.5rem;">
+            <h4 style="font-weight: bold; font-size: 1.25rem; margin-bottom: 0.5rem; color: #e0e0e0;">From the Desk of Alex Dev</h4>
+            <p style="margin-bottom: 1rem; color: #c0c0c0;">In a world driven by pixels and logic, Alex Dev stands out as a digital artisan. With over 5 years of experience in full-stack development, Alex has mastered the art of translating complex requirements into elegant, user-friendly interfaces. Specializing in the React ecosystem and modern TypeScript patterns, the focus remains on performance, accessibility, and clean code. When not coding, Alex can be found exploring the nuances of UI/UX design or contributing to open-source libraries.</p>
+            <p style="font-style: italic; color: #a0a0a0;">"Simplicity is the ultimate sophistication."</p>
+          </div>
+          
+          <div style="border-top: 1px solid #4a9eff; border-bottom: 1px solid #4a9eff; padding-top: 1rem; padding-bottom: 1rem; margin-top: 1.5rem; margin-bottom: 1.5rem;">
+            <h4 style="font-family: 'Inter', sans-serif; font-weight: bold; text-align: center; text-transform: uppercase; font-size: 0.875rem; margin-bottom: 0.75rem; background-color: #4a9eff; color: #1a1a1a; padding: 0.25rem;">Classifieds: Skills for Hire</h4>
+            <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 0.5rem; font-family: 'Inter', sans-serif; font-size: 0.75rem; line-height: 1.625; color: #c0c0c0;">
+              <div>
+                <p style="font-weight: bold; text-decoration: underline;">Languages</p>
+                <p>TypeScript</p>
+                <p>Go</p>
+                <p>Python</p>
+                <p>Rust</p>
+              </div>
+              <div>
+                <p style="font-weight: bold; text-decoration: underline;">FRONTEND</p>
+                <p>React, React-Native</p>
+                <p>Tailwind</p>
+                <p>Jest</p>
+              </div>
+              <div>
+                <p style="font-weight: bold; text-decoration: underline;">BACKEND</p>
+                <p>Node.js, Python</p>
+                <p>PostgreSQL, MongoDB</p>
+                <p>Docker, Kubernetes, AWS</p>
+              </div>
+              <div>
+                <p style="font-weight: bold; text-decoration: underline;">DEVOPS</p>
+                <p>Docker</p>
+                <p>Kubernetes</p>
+                <p>AWS</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer id="contact" style="margin-top: 4rem; border-top: 4px solid #4a9eff; padding-top: 2rem; padding-bottom: 3rem; display: flex; justify-content: center;">
+        <div style="width: 100%; max-width: 900px;">
+          <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem;">
+            <div style="text-align: center;">
+              <h5 style="font-family: 'Inter', sans-serif; font-weight: bold; text-transform: uppercase; margin-bottom: 1rem; color: #e0e0e0;">Subscriptions</h5>
+              <p style="font-family: 'Playfair Display', serif; font-size: 0.875rem; margin-bottom: 0.5rem; color: #c0c0c0;">Subscribe to our newsletter for the latest updates on web technology and design patterns.</p>
+              <div style="display: flex; gap: 0.5rem; justify-content: center;">
+                <input type="email" placeholder="Email address" style="border: 1px solid #4a9eff; padding: 0.25rem; font-family: 'Inter', sans-serif; font-size: 0.875rem; background-color: #252525; color: #e0e0e0;" />
+                <button style="background-color: #4a9eff; color: #1a1a1a; padding: 0.25rem 0.75rem; font-family: 'Inter', sans-serif; font-size: 0.75rem; text-transform: uppercase; font-weight: bold; cursor: pointer;">Join</button>
+              </div>
+            </div>
+
+            <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; border-left: 1px solid #4a9eff; border-right: 1px solid #4a9eff; padding-left: 1rem; padding-right: 1rem;">
+              <h5 style="font-family: 'Playfair Display', serif; font-weight: bold; font-size: 1.5rem; font-style: italic; margin-bottom: 0.5rem; color: #e0e0e0;">The Daily Portfolio</h5>
+              <p style="font-family: 'Inter', sans-serif; font-size: 0.75rem; text-transform: uppercase; color: #888;">Est. 2024</p>
+              <p style="font-family: 'Inter', sans-serif; font-size: 0.75rem; text-transform: uppercase; margin-top: 1rem; color: #888;">Made with React & Gemini</p>
+            </div>
+
+            <div style="text-align: center;">
+              <h5 style="font-family: 'Inter', sans-serif; font-weight: bold; text-transform: uppercase; margin-bottom: 1rem; color: #e0e0e0;">Contact the Editor</h5>
+              <p style="font-family: 'Playfair Display', serif; font-size: 1.125rem; font-weight: bold; color: #e0e0e0;">asmb3456@gmail.com</p>
+              <div style="margin-top: 1rem; display: flex; justify-content: center; gap: 1rem; font-family: 'Inter', sans-serif; font-size: 0.875rem; font-weight: bold; text-transform: uppercase; text-decoration: underline;">
+                <a href="https://www.linkedin.com/in/asmitbarua/" style="color: #4a9eff;">LinkedIn</a>
+                <a href="https://github.com/asmb123" style="color: #4a9eff;">GitHub</a>
+                <a href="https://x.com/asmb3456" style="color: #4a9eff;">Twitter</a>
+              </div>
+            </div>
+          </div>
+        </div></content>
+<parameter name="filePath">
